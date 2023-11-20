@@ -7,6 +7,7 @@ Flask server microservice to return pilot flight time limits depending on starti
 `http://<GAE project domain name>/flight_time_limit?start_time=<time in 2400 format>&flight_legs=<number of flight legs between 1 and 4 inclusive> `<br>
 For example:<br>
 `http://YOUR_PROJECT_ADDRESS.appspot.com/flight_time_limit?start_time=1234&flight_legs=2`<br>
+The query parameters `start_time` and `flight_legs` are the input parameters. 
 You may open the url on your web browser, which will return the flight time limit in the body of a HTTP response.
 
 A means of accessing the microservice in python is provided as follows: 
