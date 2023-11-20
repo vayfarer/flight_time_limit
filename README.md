@@ -35,3 +35,6 @@ if __name__ == '__main__':
     print(get_flight_time_limit("1200", "2"))
     # expected result "11"
 ```
+
+# UML Sequence Diagram
+![UML diagram](https://github.com/vayfarer/flight_time_limit/blob/master/uml_seq.jpg)
