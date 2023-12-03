@@ -3,7 +3,7 @@ import requests
 
 def get_flight_time_limit(start_time: str, legs: str):
     """GET Request to username microservice."""
-    url = "http://<YOUR PROJECT>.uw.r.appspot.com/flight_time_limit"
+    url = "http://ambient-odyssey-404506.uw.r.appspot.com/flight_time_limit"
     url += f"?start_time={start_time}&flight_legs={legs}"
     print(url)
     try:
@@ -17,5 +17,5 @@ def get_flight_time_limit(start_time: str, legs: str):
 
 
 if __name__ == '__main__':
-    print(get_flight_time_limit("1200", "2"))
+    print(get_flight_time_limit("0000", "2"))
     # expected result "11"
