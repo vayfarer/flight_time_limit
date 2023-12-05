@@ -50,7 +50,8 @@ visitor_log = Log()
 
 @app.route('/')
 def index():
-    return ("/flight_time_limit?start_time=1234&flight_legs=1 for API. <br>"
+    return ("CS 361 Microservice by Mike Chen for Ian Hudson. <br>" +
+            "/flight_time_limit?start_time=1234&flight_legs=1 for API. <br>"
             + "recent uses of service: <br>" + visitor_log.html_list())
 
 
